@@ -8,4 +8,8 @@ public class test {
         String param = ParameterService.INSTANCE.getString("IT_CUF_owl");
         System.out.println(param);
     }
+    @Test
+    public void testowl() throws ParameterException {
+        System.out.println("Success test");
+    }
 }
