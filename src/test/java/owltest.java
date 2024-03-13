@@ -1,21 +1,20 @@
 import org.junit.jupiter.api.Test;
-import org.opentestfactory.exception.ParameterException;
 
 public class owltest {
     @Test
-    public void testowl() throws ParameterException {
+    public void testowl() {
         System.out.println("Success test");
     }
     @Test
-    public void owlTwo() throws ParameterException {
+    public void owlTwo() {
         System.out.println("Test number 2");
     }
     @Test
-    public void owlThree() throws ParameterException {
+    public void owlThree() {
         System.out.println("Test number 3");
     }
     @Test
-    public void owlFour() throws ParameterException {
+    public void owlFour() {
         System.out.println("Test number 4");
     }
 }
