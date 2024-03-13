@@ -6,4 +6,16 @@ public class owltest {
     public void testowl() throws ParameterException {
         System.out.println("Success test");
     }
+    @Test
+    public void owlTwo() throws ParameterException {
+        System.out.println("Test number 2");
+    }
+    @Test
+    public void owlThree() throws ParameterException {
+        System.out.println("Test number 3");
+    }
+    @Test
+    public void owlFour() throws ParameterException {
+        System.out.println("Test number 4");
+    }
 }
